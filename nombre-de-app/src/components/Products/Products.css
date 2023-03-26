@@ -1,0 +1,49 @@
+.card{
+    width: 1000px;
+    height: 200px;
+    position: relative;
+    top: 600px;
+    display: flex;
+    padding: 20px;
+}
+
+.imagen{
+    justify-content: center;
+    width: 300px;
+    height: 200px;
+    
+
+}
+
+.name{
+    z-index: 5;
+    position: absolute;
+    font-size: 50px;
+    left: 40%;
+    top: 40px;
+}
+
+.precio{
+    position: relative;
+    font-size: 40px;
+    left: 60%;
+    top: 18%;
+}
+
+.boton{
+    font-size: 30px;
+    background-color: rgb(134, 36, 134);
+    border-radius: 15px;
+    border: 1px solid;
+    color: white;
+    width: 300px;
+    height: 100px;
+   
+    position: relative;
+    left: 67%;
+    top: 35%;
+}
+
+.boton:hover{
+    background-color: violet;
+}

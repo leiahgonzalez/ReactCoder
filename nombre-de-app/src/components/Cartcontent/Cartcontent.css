@@ -1,0 +1,60 @@
+.cartContent{
+    
+    width: 1000px;
+    height: 200px;
+    position: relative;
+    top: 00px;
+    display: flex;
+    padding: 20px;
+    
+}
+
+.imagen{
+   
+    justify-content: center;
+    width: 300px;
+    height: 200px;
+    
+
+}
+
+.name{
+   
+    z-index: 5;
+    
+    font-size: 50px;
+    left: 40%;
+    top: 40px;
+}
+
+.precio{
+    
+    position: relative;
+    font-size: 40px;
+    left: 60%;
+    top: 18%;
+}
+
+.carritovacio{
+    font-size: 50px;
+    position: relative;
+    left: 35%;
+    top: 40px;
+    
+}
+
+.counter-button{
+    position: relative;
+    left: 60%;
+    width: 200px;
+    height: 20px;
+    font-size: 70px;
+
+}
+.quanty{
+    position: relative;
+    left: 52%;
+    top: 50px;
+    font-size: 40px;
+  
+}
